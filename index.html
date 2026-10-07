@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dannana Tharun | BMS & EV Portfolio</title>
+    <style>
+        :root {
+            --primary: #0066cc;
+            --bg: #0f172a;
+            --card-bg: #1e293b;
+            --text: #f8fafc;
+            --text-muted: #94a3b8;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            padding: 4rem 2rem;
+            text-align: center;
+            background: linear-gradient(180deg, #1e293b 0%, #0f172a 100%);
+        }
+        h1 { margin: 0; font-size: 2.5rem; color: #38bdf8; }
+        .subtitle { font-size: 1.2rem; color: var(--text-muted); margin-top: 0.5rem; }
+        .container { max-width: 900px; margin: 0 auto; padding: 2rem; }
+        section { margin-bottom: 3rem; }
+        h2 { border-bottom: 2px solid var(--primary); padding-bottom: 0.5rem; color: #38bdf8; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; }
+        .card { background: var(--card-bg); padding: 1.5rem; border-radius: 8px; }
+        .btn {
+            display: inline-block;
+            background: var(--primary);
+            color: white;
+            padding: 0.6rem 1.2rem;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-right: 0.5rem;
+            margin-top: 0.5rem;
+        }
+        .btn:hover { background: #0052a3; }
+        ul { padding-left: 1.2rem; }
+        li { margin-bottom: 0.5rem; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Dannana Tharun</h1>
+    <p class="subtitle">Electronics & Instrumentation Engineer | BMS & EV Systems</p>
+    <p>Engineering Smarter Battery Management for Electric Vehicles</p>
+    <div>
+        <a href="mailto:tarun.eie.aknu@gmail.com" class="btn">Email Me</a>
+        <a href="https://linkedin.com" target="_blank" class="btn">LinkedIn Profile</a>
+        <a href="https://github.com" target="_blank" class="btn">GitHub</a>
+    </div>
+</header>
+
+<div class="container">
+    <!-- About Section -->
+    <section>
+        <h2>About Me</h2>
+        <p>
+            Electronics and Instrumentation graduate focused on battery pack modeling, battery management systems (BMS), active cell balancing, SOC/SOH estimation, and model-based control using MATLAB, Simulink, and Simscape.
+        </p>
+    </section>
+
+    <!-- Technical Skills Section -->
+    <section>
+        <h2>Technical Skills</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Battery & EV</h3>
+                <p>BMS fundamentals, Li-ion systems, Pack modeling, SOC/SOH concepts, Active cell balancing, Thermal management concepts, NMC/LFP chemistries.</p>
+            </div>
+            <div class="card">
+                <h3>Modeling & Control</h3>
+                <p>MATLAB, Simulink, Simscape, Stateflow, PID/PI control, Closed-loop control, PWM concepts.</p>
+            </div>
+            <div class="card">
+                <h3>Instrumentation & Automation</h3>
+                <p>Sensors & transmitters, Calibration tools, Loop troubleshooting, PLC programming, P&ID design.</p>
+            </div>
+            <div class="card">
+                <h3>Programming & Protocols</h3>
+                <p>Python fundamentals, Embedded systems basics, CAN, I2C, SPI awareness.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects -->
+    <section>
+        <h2>Featured Projects</h2>
+        <div class="card">
+            <h3>Active Cell Balancing of Lithium-Ion Batteries for an EV</h3>
+            <p><strong>Institution:</strong> IIPE Visakhapatnam (Dec 2025 – Apr 2026)</p>
+            <p><strong>Guide:</strong> Dr. D. Kishore | <strong>Teammate:</strong> K. Devi Prasad</p>
+            <p><strong>Overview:</strong> Investigated switched-capacitor and inductor-based DC-DC active balancing, buck-boost converter concepts, and closed-loop control to dynamic balance cell SOCs in MATLAB/Simulink.</p>
+        </div>
+    </section>
+
+    <!-- Internship & Training -->
+    <section>
+        <h2>Internships & Training</h2>
+        <ul>
+            <li><strong>Design of Battery Pack and BMS for EVs:</strong> IIPE Visakhapatnam (May 2025 – Jul 2025) – MATLAB/Simscape modeling for battery packs and BMS simulation.</li>
+            <li><strong>Lead Resistance Compensation in Resistive Sensors:</strong> NIT Tiruchirappalli (May 2024) – Sensor error reduction techniques.</li>
+            <li><strong>EV BMS Awareness Program:</strong> NIT Warangal (Feb 2026).</li>
+        </ul>
+    </section>
+
+    <!-- Education -->
+    <section>
+        <h2>Education</h2>
+        <ul>
+            <li><strong>B.Tech in Electronics & Instrumentation Engineering</strong> (2022–2026)<br>University College of Engineering, Adikavi Nannaya University — CGPA: 8.2/10</li>
+            <li><strong>Intermediate (MPC)</strong> (2020–2022) — AP Model Junior College — GPA: 7.7/10</li>
+        </ul>
+    </section>
+
+    <!-- Career Focus -->
+    <section>
+        <h2>Target Roles</h2>
+        <p>Battery Management System Engineer | Battery Modeling & Simulation Engineer | Battery Testing & Validation Engineer | EV Systems & Controls Engineer</p>
+    </section>
+</div>
+
+</body>
+</html>
+```[cite: 1, 2, 3, 5, 6, 7]
+
+---
+
+### Step 3: Add Media Assets (PDF, Certificate, Images)
+
+1. Upload your resume file (e.g., `resume.pdf`) and project figures to your GitHub repository[cite: 1, 4].
+2. Link them directly inside your `index.html` file like this:
+   ```html
+   <a href="resume.pdf" target="_blank" class="btn">Download Resume</a>
+   ```[cite: 1]
+
+---
+
+### Step 4: Publish Your GitHub Pages Site
+
+1. Navigate to your repository's **Settings** tab on GitHub.
+2. Under the left menu, select **Pages**.
+3. Under **Build and deployment** > **Branch**, select `main` (or `master`) and click **Save**.
+4. Wait 1 to 2 minutes. GitHub will display a live URL:  
+   `https://<your-github-username>.github.io`
+
+---
+
+### Step 5: Link Your Portfolio to LinkedIn
+
+1. Copy your live website link (`https://<your-github-username>.github.io`).
+2. Go to your **LinkedIn Profile**.
+3. Edit your **Contact Info** or the top intro section and add your site URL under **Website / Custom Link**.
+4. Add it under the **Featured Section** on LinkedIn to show recruiters a preview card of your BMS & EV portfolio[cite: 1, 7].
